@@ -27,12 +27,19 @@ Notes:	 Hand coded for Udemy.com
 }
 
 footer {
-	background: #333;
-	color: #eee;
-	font-size: 11px;
+	background: #4d194d;;
+	color: white;
+	font-size: 13px;
 	padding: 20px;
+	font-family: 'Indie Flower', cursive;
 }
 
+.col-sm-6{
+	background-color: #df9fdf;
+}
+.list-group{
+	background-color: #ffccf2;
+}
 
 /* --------------------------------------
    Typography
@@ -89,15 +96,15 @@ ul.unstyled {
 #myCarousel .item { height: 400px; }
 
 #slide1 {
-	background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+	background: url('../../images/carousel_medium1.jpg') top center no-repeat;
 }
 
 #slide2 {
-	background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+	background: url('../../images/carousel_medium2.jpg') top center no-repeat;
 }
 
 #slide3 {
-	background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+	background: url('../../images/carousel_medium3.jpg') top center no-repeat;
 }
 
 
@@ -112,18 +119,27 @@ ul.unstyled {
 
 .well {
 	margin: 20px 0;
+	background-color: #df9fdf;
 }
 
 .tabbable img.thumbnail {
 	margin: 0 20px 10px 0;
 }
 
+.panel{
+	background-color: #df9fdf;
+}
+.panel-heading{
+	background-color: #4d194d;
+	color: white;
+}
 .thumbnails {
 	margin: 20px 0;
 }
 
 .thumbnail {
 	position: relative;
+	background-color: #df9fdf;
 }
 
 .thumbnail h3 {
@@ -156,7 +172,10 @@ ul.unstyled {
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-
+#callusButton
+{
+	visibility: hidden;
+}
 	.thumbnail .price {
 		font-size: 14px;
 	}
@@ -173,15 +192,15 @@ ul.unstyled {
 	#myCarousel .item { height: 310px; }
 
 	#slide1 {
-		background: url('../../images/flat2.jpg') top center no-repeat;
+		background: url('../../images/carousel_small1.jpg') top center no-repeat;
 	}
 
 	#slide2 {
-		background: url('../../images/flat2.jpg') top center no-repeat;
+		background: url('../../images/carousel_small2.jpg') top center no-repeat;
 	}
 
 	#slide3 {
-		background: url('../../images/flat2.jpg') top center no-repeat;
+		background: url('../../images/carousel_small3.jpg') top center no-repeat;
 	}
 
 	.carousel-caption {
@@ -200,15 +219,15 @@ ul.unstyled {
 	#myCarousel .item { height: 500px; }
 
 	#slide1 {
-		background: url('../../images/flat2.jpg') top center no-repeat;
+		background: url('../../images/carousel_large1.jpg') top center no-repeat;
 	}
 
 	#slide2 {
-		background: url('../../images/flat2.jpg') top center no-repeat;
+		background: url('../../images/carousel_large2.jpg') top center no-repeat;
 	}
 
 	#slide3 {
-		background: url('../../images/flat2.jpg') top center no-repeat;
+		background: url('../../images/carousel_large3.jpg') top center no-repeat;
 	}
 
 }

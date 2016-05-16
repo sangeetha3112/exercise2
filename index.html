@@ -20,8 +20,9 @@
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 
+		<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 	</head>
-	<body style="background-color:#e6f9ff;">
+	<body>
 
 		<div class="conatainer" id="main" style="background-color:#ffccff;">
 				<div class="navbar navbar-fixed-top">
@@ -111,25 +112,42 @@
 				</div>
 				</div><!--end carousel-->
 				<div class="row" id="bigCallout">
-						<div class="container">
+					<div class="container">
 					<div class="col-12">
+
+						<div class="alert alert-success alert-block fade in" id="successAlert">
+							<button type="button" class="close" data-dismiss="alert">&times;</button>
+							<h4>You are successfully subscribed to LUXURY HOMES now!!</h4>
+							<p>Mail will be sent to you if there are new properties available.Use 'x' button to close the alert.</p>
+						</div>
+
+						<!--visible only on small devices-->
+						<div class="well well-small visible-sm">
+							<a href="#" class="btn btn-large btn-block btn-default" id="callusButton"><span class="glyphicon glyphicon-phone"></span> Give us a call</a>
+						</div><!--end of well-samll-->
 
 						<div class="well">
 							<div class="page-header">
 								<h1>A Success story <small>Anywhere ..any property ..find it here !!</small></h1>
-							</div><!-- end page-header -->
-
+						</div><!-- end page-header -->
 
 							<p class="lead">
 									As a pioneer in luxury real estate, we aim to create a world-class affluent community to showcase and promote an exclusive collection of luxury properties.
 							</p>
 
+							<a href="#" class="btn btn-primary btn-large" id="alertMe">Click to subscribe to Luxury Homes</a>
 						</div><!-- end well -->
-
+					</div><!--end container-->
 					</div><!-- end col-12 -->
-				</div>
+
 				</div><!--end bigCallout-->
 				<div class="row" id="featuresHeading">
+					<div class="container">
+					<div class="col-12">
+							<h2>See all our stories..</h2>
+							<p class="lead">The website boasts of a dedicated team providing personalized support to users in their quest of finding that perfect home ..Make a fast move now!!</p>
+					</div><!--end of col-12-->
+				</div><!--end container-->
 				</div><!--end featuresHeading-->
 				<div class="row" id="features">
 						<div class="container">
@@ -139,7 +157,7 @@
 								<h3 class="panel-title">Independent Villas</h3>
 							</div><!-- end panel-heading -->
 
-								<img src="images/flat2.jpg" width="300px" height="100px" alt="flat" class="img-circle"/>
+								<img src="images/flat4.jpg"  alt="flat" class="img-circle"/>
 							<p>The luxury website from India's No 1 real estate portal Luxury.com aims to ease the problem of finding high-end properties across the country. </p>
 
 							<a href="#" class="btn btn-warning btn-block">Check more about this</a>
@@ -151,7 +169,7 @@
 							<div class="panel-heading">
 								<h3 class="panel-title">Compact Homes</h3>
 							</div><!-- end panel-heading -->
-							<img src="images/flat3.jpg" width="300px" height="100px" alt="flat" class="img-circle"/>
+							<img src="images/flat5.jpg" alt="flat" class="img-circle"/>
 							<p>Packed with loads of high-quality pictures and videos, the visually impressive luxury Magicbricks website showcases exclusive residential properties. </p>
 
 							<a href="#" class="btn btn-danger btn-block">Style it up with CSS3</a>
@@ -164,7 +182,7 @@
 								<h3 class="panel-title">Upcoming project plans</h3>
 							</div><!-- end panel-heading -->
 
-							<img src="images/flat1.jpg" width="300px" height="100px" alt="flat" class="img-circle"/>
+							<img src="images/flat1.jpg" alt="flat" class="img-circle"/>
 							<p>The website boasts of a dedicated team providing personalized support to users in their quest of finding that perfect home .Make a fast move now!!</p>
 
 							<a href="#" class="btn btn-info btn-block">More Info..</a>
@@ -210,7 +228,7 @@
 
 				</div><!-- end col-sm-6 -->
 				<div class="col-sm-6">
-						<div class="container">
+
 					<h3>Investing on flats</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -239,34 +257,28 @@
 
 					<h5>Market trends</h5>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 				</div><!-- end col-sm-6 -->
-	</div>
+
 				<div class="row" id="moreInfo">
+					
 				</div><!--end moreInfo-->
+
+
 				<div class="row" id="moreCourses">
-
-
-
-
 					<div class="col-12">
-							<div class="container">
-						<h3>Flat 3D plans</h3>
+
+						<h3>Flat plans</h3>
 						<div class="thumbnails row">
 							<div class="col-6">
 								<div class="thumbnail">
 									<img src="images/flat3.jpg" alt="flat" width="200px" height="100px">
-
-
-
 									<div class="caption">
 										<h3>No brokerage</h3>
-
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 										</p>
-
 										<p><a href="#" class="btn btn-primary btn-small" >Take a tour</a> <a href="#" class="btn btn-small btn-link">More Info..</a></p>
 									</div><!-- end caption -->
 								</div><!-- end thumbnail -->
@@ -275,27 +287,20 @@
 							<div class="col-6">
 								<div class="thumbnail">
 									<img src="images/flat2.jpg" alt="flat" width="200px" height="100px">
-
-
-
 									<div class="caption">
 										<h3>Home Loan</h3>
-
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 										</p>
-
 										<p><a href="#" class="btn btn-primary btn-small" >Calculate intrest</a> <a href="#" class="btn btn-small btn-link">Best deals</a></p>
 									</div><!-- end caption -->
 								</div><!-- end thumbnail -->
 							</div><!-- end col-6 -->
 						</div><!-- end row -->
 					</div><!-- end col-12 -->
-				</div>
 				</div><!--end moreCourses-->
 		</div><!-- end of container -->
 		<footer>
-		</footer>	<footer>
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-2">
@@ -304,7 +309,9 @@
 
 						<div class="col-sm-4">
 							<h6>About Us</h6>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p>
+									The luxury website from India's No 1 real estate portal Luxury.com aims to ease the problem of finding high-end properties across the country. Packed with loads of high-quality pictures and videos, the visually impressive luxury Magicbricks website showcases exclusive residential properties. The website boasts of a dedicated team providing personalized support to users in their quest of finding that perfect home .
+							</p>
 						</div><!-- end col-sm-4 -->
 
 						<div class="col-sm-2">
@@ -312,7 +319,6 @@
 							<ul class="unstyled">
 								<li><a href="#">Home</a></li>
 								<li><a href="#">Services</a></li>
-								<li><a href="#">Links</a></li>
 								<li><a href="#">Contact</a></li>
 							</ul>
 						</div><!-- end col-sm-2 -->
@@ -326,9 +332,7 @@
 							</ul>
 						</div><!-- end col-sm-2 -->
 
-						<div class="col-sm-2">
 
-						</div><!-- end col-sm-2 -->
 					</div><!-- end row -->
 				</div><!-- end container -->
 			</footer>
